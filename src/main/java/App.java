@@ -23,8 +23,9 @@ public class App {
         System.out.printf(v2+" "+v1);
     }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
-
+        
+        CorpoHumano corpo1 = new CorpoHumano(100,23.1,30,1.70);
+        System.out.println("Esse é seu imc: "+corpo1.calcularIMC());
 
     }
 }
